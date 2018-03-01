@@ -1,0 +1,30 @@
+{
+  "name": "ruptiva-cli",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Boilerplate generator by Ruptiva",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kauê da Maia <kaue@ruptiva.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruptiva/ruptiva-cli.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.1",
+    "commander": "^2.14.1",
+    "inquirer": "^5.1.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "ruptiva-cli": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ruptiva/ruptiva-cli/issues"
+  },
+  "homepage": "https://github.com/ruptiva/ruptiva-cli#readme",
+  "devDependencies": {}
+}
